@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "emobias"
+version = "0.1.0"
+description = "EmoBias is a Python package that allows individuals to assess whether an LLM fine-tuned to perform either single-label, multi-label, or entailment based emotion detection is biased when prefixed with stereotypical gendered or racial names."
+authors = ["Nile Dixon <niledixon475@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+transformers = "^4.38.2"
+datasets = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
